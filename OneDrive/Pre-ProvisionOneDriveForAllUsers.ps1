@@ -23,6 +23,7 @@ foreach ($u in $users) {
     Write-Host "$i/$count"
 
     $upn = $u.userprincipalname
+    Write-Host "Pre-Provisioning: " $upn
     $list += $upn
 
     if ($i -eq 199) {
