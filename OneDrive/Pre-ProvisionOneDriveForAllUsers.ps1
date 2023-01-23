@@ -1,8 +1,11 @@
-#Original script from Microsoft: https://learn.microsoft.com/en-us/sharepoint/pre-provision-accounts
+#Modified script from the original MS script: https://learn.microsoft.com/en-us/sharepoint/pre-provision-accounts
 
-$Credential = Get-Credential
-Connect-MsolService -Credential $Credential
-Connect-SPOService -Credential $Credential -Url https://contoso-admin.sharepoint.com
+
+
+#Connect to MSOL
+Connect-MsolService 
+#Connect to SPO - remember to change the URL:
+Connect-SPOService -Url https://contoso-admin.sharepoint.com
 
 $list = @()
 #Counters
@@ -11,7 +14,8 @@ $i = 0
 
 #Get licensed users
 $users = Get-MsolUser -All | Where-Object { $_.islicensed -eq $true }
-#total licensed users
+
+#Total licensed users
 $count = $users.count
 
 foreach ($u in $users) {
