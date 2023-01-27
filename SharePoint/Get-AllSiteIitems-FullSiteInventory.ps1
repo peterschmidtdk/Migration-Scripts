@@ -9,7 +9,6 @@
 .NOTES
   Credit/Original   Author: Salaudeen Rajack (https://www.sharepointdiary.com/2019/10/sharepoint-online-site-documents-inventory-report-using-powershell.html)
   Modified Author:  Peter Schmidt (https://msdigest.net)
-  Purpose/Change:   Initial script development
 .VERSION
   Version: 1.0  2023.01.26  Initial slightly modified version, added some export settings 
   Version: 1.1  2023.01.26  Added Checked Out item information
