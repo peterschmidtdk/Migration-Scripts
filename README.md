@@ -7,4 +7,5 @@ It will be script for use with:
 - OneDrive for Business
 
 Some script are for use with ShareGate, which is one of the SharePoint/Teams/OneDrive migration tools available.
-Read more on www.sharegate.com
+Read more on [www.sharegate.com
+](https://sharegate.com/microsoft-migration)
