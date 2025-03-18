@@ -8,7 +8,10 @@
     All operations are logged to a file for tracking.
 
 .VERSION
-    1.2 - Added logging functionality.
+	1.0 - Initial release
+	1.1 - Improved error handling and skips empty permissions.
+	1.2 - Added logging functionality.
+	1.3 - CSV example.
 
 .AUTHOR
     Peter Schmidt
@@ -20,6 +23,10 @@
     - Requires Exchange Online PowerShell module (EXO V2).
     - Run the script with appropriate administrative privileges.
     - Ensure the CSV file follows the required format.
+
+.CSV EXAMPLE
+DisplayName,Alias,PrimarySmtpAddress,GrantSendAs,GrantFullAccess
+"Support Team","Support","support@yourdomain.com","user1@yourdomain.com","user2@yourdomain.com"
 
 #>
 
