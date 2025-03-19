@@ -4,7 +4,7 @@
 
 .DESCRIPTION
     This script reads a CSV file containing shared mailbox details and creates them in Exchange Online.
-    It also assigns Full Access and Send As permissions based on the CSV data (if provided).
+    It can also assign Full Access and Send As permissions based on the CSV data (if provided).
     All operations are logged to a file for tracking.
 
 .VERSION
