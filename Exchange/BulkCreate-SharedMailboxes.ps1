@@ -12,12 +12,13 @@
 	1.1 - Improved error handling and skips empty permissions.
 	1.2 - Added logging functionality.
 	1.3 - CSV example.
+    1.4 - Minor tweaks.
 
 .AUTHOR
     Peter Schmidt
 
 .LAST UPDATED
-    2025-03-18
+    2025.03.19
 
 .NOTES
     - Requires Exchange Online PowerShell module (EXO V2).
